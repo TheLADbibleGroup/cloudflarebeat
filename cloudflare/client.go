@@ -32,7 +32,7 @@ type CloudflareClient struct {
 func NewClient(params map[string]interface{}) *CloudflareClient {
 
 	c := &CloudflareClient{
-		uri: "/client/v4/zones/%s/logs/requests",
+		uri: "/client/v4/zones/%s/dns_analytics/report",
 	}
 
 	if _, ok := params["api_key"]; ok {
