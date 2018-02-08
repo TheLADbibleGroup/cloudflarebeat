@@ -5,7 +5,7 @@ import (
 
 	"github.com/elastic/beats/libbeat/beat"
 
-	"github.com/hartfordfive/cloudflarebeat/beater"
+	"github.com/theladbiblegroup/cloudflarebeat/beater"
 )
 
 func main() {

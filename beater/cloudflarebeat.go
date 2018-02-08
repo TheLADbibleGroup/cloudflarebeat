@@ -9,12 +9,12 @@ import (
 	"github.com/elastic/beats/libbeat/common"
 	"github.com/elastic/beats/libbeat/logp"
 	"github.com/elastic/beats/libbeat/publisher"
-	"github.com/hartfordfive/cloudflarebeat/cloudflare"
-	"github.com/hartfordfive/cloudflarebeat/config"
+	"github.com/theladbiblegroup/cloudflarebeat/cloudflare"
+	"github.com/theladbiblegroup/cloudflarebeat/config"
 )
 
 const (
-	STATEFILE_NAME         = "cloudflarebeat.state"
+	STATEFILE_NAME         = "cloudflarebeatanalytics.state"
 	OFFSET_PAST_MINUTES    = 30
 	TOTAL_LOGFILE_SEGMENTS = 6
 )
