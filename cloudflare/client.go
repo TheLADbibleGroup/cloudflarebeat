@@ -64,6 +64,8 @@ func (c *CloudflareClient) doRequest(params map[string]interface{}) (string, err
 		qsa.Set("count", fmt.Sprintf("%d", params["count"].(int)))
 	}
 
+    logp.Info("query url %s", apiURL)
+
 	req := goreq.Request{
 		Uri:         apiURL,
 		Timeout:     10 * time.Minute,
